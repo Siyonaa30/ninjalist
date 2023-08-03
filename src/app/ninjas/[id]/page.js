@@ -42,6 +42,7 @@ const page = ({ ninja }) => {
         <p> {ninja.website}</p>
         <p> {ninja.phone}</p>
       </div>
+      
       {/* // )} */}
     </div>
   );
