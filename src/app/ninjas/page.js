@@ -25,7 +25,7 @@ import Link from "next/link";
       {
         data.map((ninja) =>(
           <div key={ninja.id}>
-            <Link href={`/ninjas/${ninja.id.toString()}`} className="single">
+            <Link className="single">
               <h3>{ninja.name}</h3>
             </Link>
           </div>
